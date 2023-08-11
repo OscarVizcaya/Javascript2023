@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0; /*algun tipo de relleno pasalo a 0*/
+  box-sizing: border-box;
+  font-family: sans-serif; /**/
+}
+
+.padre {
+  background-color: black;
+  display: flex;
+  justify-content: center; /* ordena de izq-der*/
+  align-items: center; /* ordena de arrb-abaj*/
+  height: 100vh;
+}
+
+.hijo1 {
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.hijo2 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px; /*redondea las esquinas*/
+  /* p span {
+    color: yellow; } esto no funciona */
+}

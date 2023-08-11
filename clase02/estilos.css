@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: black;
+}
+
+.padre {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  /* (ctrl + k + c) otra forma de comentar*/
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.hijo1 {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+}
+.hijo2 {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+}
+.hijo3 {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+}

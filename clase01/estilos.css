@@ -1,0 +1,18 @@
+div {
+  color: blue;
+}
+
+.segundodiv {
+  color: brown;
+}
+
+p {
+  color: rebeccapurple;
+}
+
+.padre {
+  background-color: chocolate;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}

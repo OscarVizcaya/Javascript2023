@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  /* padding-top: ; Aqui voy  */
+}
+header {
+  min-height: auto;
+  width: 100%;
+  display: flex;
+  background-color: #002451;
+  justify-content: space-between;
+  padding: 10px;
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; */
+}
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+nav a:hover {
+  color: greenyellow; /* cada vez que paso el maouse por este texto va cambiar a color amarillo*/
+}
+@media (max-width:680px) 
+/* aqui vamos a solucionar cuando la pantalla se   reduce que se siga viendo bien el diseno de nuestro header*/
+{
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
